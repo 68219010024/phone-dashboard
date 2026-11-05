@@ -1,0 +1,48 @@
+﻿table,column,description_th,type,unit_or_domain,range_in_data,example_thailand,missing_pct,source
+country_year,country,ชื่อประเทศ,str,text,218 ค่า,Thailand,0.0,World Bank WDI
+country_year,iso3,รหัส ISO3 (WLD = โลก),str,text,218 ค่า,THA,0.0,World Bank WDI
+country_year,iso2,รหัส ISO2,str,text,216 ค่า,TH,0.92,World Bank WDI
+country_year,region,ภูมิภาคตาม World Bank,str,text,8 ค่า,East Asia & Pacific,0.0,World Bank WDI
+country_year,region_th,ภูมิภาค (ไทย),str,text,8 ค่า,เอเชียตะวันออกและแปซิฟิก,0.0,สร้างขั้น 4
+country_year,income_group,กลุ่มรายได้,str,text,5 ค่า,Upper middle income,0.0,World Bank WDI
+country_year,income_th,กลุ่มรายได้ (ไทย),str,text,5 ค่า,รายได้ปานกลางระดับบน,0.0,สร้างขั้น 4
+country_year,is_asean,อาเซียน,bool,True/False,2 ค่า,True,0.0,สร้างขั้น 4
+country_year,year,ปี ค.ศ.,int64,year,"2,000.00 ถึง 2,025.00",2025,0.0,-
+country_year,telecom_year_complete,ตัวชี้วัดโทรคมนาคมเผยแพร่แล้ว (≤ 2024),bool,True/False,2 ค่า,False,0.0,สร้างขั้น 4
+country_year,no_telecom_data,ประเทศ/ดินแดนที่ไม่มีข้อมูลผู้ใช้มือถือเลย,bool,True/False,2 ค่า,False,0.0,สร้างขั้น 4
+country_year,mobile_subs_per100,ผู้ใช้บริการมือถือต่อประชากร 100 คน (เกิน 100 ได้),float64,ต่อ 100 คน,0.00 ถึง 574.15,,10.43,World Bank WDI (ITU)
+country_year,mobile_subs,จำนวนผู้ใช้บริการมือถือ (เลขหมาย),float64,เลขหมาย,"0.00 ถึง 9,171,000,000.00",,10.96,World Bank WDI (ITU)
+country_year,internet_pct,ร้อยละของประชากรที่ใช้อินเทอร์เน็ต,float64,%,0.00 ถึง 100.00,,12.51,World Bank WDI (ITU)
+country_year,fixed_tel_per100,โทรศัพท์บ้านต่อประชากร 100 คน,float64,ต่อ 100 คน,0.00 ถึง 140.09,,9.69,World Bank WDI (ITU)
+country_year,own_mobile_pct,ร้อยละของคนที่มีมือถือเป็นของตัวเอง,float64,%,11.40 ถึง 100.00,,76.64,ITU
+country_year,own_female_pct,ร้อยละผู้หญิงที่มีมือถือ,float64,%,7.30 ถึง 100.00,,92.93,ITU
+country_year,own_male_pct,ร้อยละผู้ชายที่มีมือถือ,float64,%,16.00 ถึง 100.00,,92.94,ITU
+country_year,cov_2g,ประชากรในพื้นที่สัญญาณ 2G ขึ้นไป,float64,%,0.00 ถึง 100.00,,33.31,ITU
+country_year,cov_3g,ประชากรในพื้นที่สัญญาณ 3G ขึ้นไป,float64,%,0.00 ถึง 100.00,,50.56,ITU
+country_year,cov_4g,ประชากรในพื้นที่สัญญาณ 4G ขึ้นไป,float64,%,0.00 ถึง 100.00,,60.27,ITU
+country_year,cov_5g,ประชากรในพื้นที่สัญญาณ 5G,float64,%,0.00 ถึง 100.00,,88.53,ITU
+country_year,mobile_web_share,สัดส่วนการเข้าเว็บด้วยมือถือ (เทียบคอมพิวเตอร์/แท็บเล็ต),float64,%,0.02 ถึง 96.30,62.53,35.83,StatCounter Global Stats
+country_year,ios_share,ส่วนแบ่ง iOS ในมือถือ,float64,%,0.18 ถึง 99.73,31.84,35.92,StatCounter Global Stats
+country_year,price_voice_gni,ค่าบริการโทรมือถือรายเดือน เทียบรายได้ต่อหัว,float64,% ของ GNI ต่อหัวต่อเดือน,0.00 ถึง 86.88,,50.72,ITU
+country_year,voice_basket,แพ็กเกจที่ใช้คำนวณค่าโทร,str,text,2 ค่า,,50.72,ITU
+country_year,price_data_gni,ค่าอินเทอร์เน็ตมือถือรายเดือน เทียบรายได้ต่อหัว,float64,% ของ GNI ต่อหัวต่อเดือน,0.06 ถึง 85.71,0.61,72.71,ITU
+country_year,data_basket,แพ็กเกจที่ใช้คำนวณค่าเน็ต,str,text,3 ค่า,5GB,72.71,ITU
+country_year,price_basket_changed,ปีที่ ITU เปลี่ยนนิยามแพ็กเกจ (เทียบข้ามปีต้องระวัง),bool,True/False,2 ค่า,True,0.0,สร้างขั้น 4
+country_year,gdp_pc_ppp,GDP ต่อหัว ปรับค่าครองชีพ (ราคาคงที่ปี 2021),float64,ดอลลาร์สากล,"702.85 ถึง 174,569.52",22431.75,9.54,World Bank WDI
+country_year,population,ประชากร,float64,คน,"9,492.00 ถึง 8,215,424,893.00",71619863.0,0.0,World Bank WDI
+country_year,out_mobile_subs_per100,ผู้ใช้มือถือต่อ 100 คน ผิดปกติ (IQR) แต่เป็นค่าจริง,bool,True/False,2 ค่า,False,0.0,สร้างขั้น 3
+country_year,out_price_data_gni,ราคาเน็ตผิดปกติ (IQR) แต่เป็นค่าจริง,bool,True/False,2 ค่า,False,0.0,สร้างขั้น 3
+country_year,yoy_jump,ผู้ใช้มือถือเปลี่ยนเกิน 40 ต่อ 100 คนในปีเดียว,bool,True/False,2 ค่า,False,0.0,สร้างขั้น 3
+brand_year,iso3,รหัส ISO3 (WLD = โลก),str,text,216 ค่า,THA,0.0,World Bank WDI
+brand_year,year,ปี ค.ศ.,int64,year,"2,010.00 ถึง 2,025.00",2025,0.0,-
+brand_year,brand,แบรนด์มือถือ (แบรนด์เล็กรวมเป็น Other),str,text,19 ค่า,Xiaomi,0.0,StatCounter Global Stats
+brand_year,share_pct,ส่วนแบ่งการใช้งาน (เฉลี่ยรายปีจากรายเดือน วัดจากการเข้าเว็บ),float64,%,0.00 ถึง 99.73,7.05,0.0,StatCounter Global Stats
+brand_year,brand_origin,ประเทศต้นกำเนิดแบรนด์,str,text,8 ค่า,จีน,0.0,สร้างขั้น 4
+os_year,iso3,รหัส ISO3 (WLD = โลก),str,text,216 ค่า,THA,0.0,World Bank WDI
+os_year,year,ปี ค.ศ.,int64,year,"2,009.00 ถึง 2,025.00",2025,0.0,-
+os_year,os,ระบบปฏิบัติการ Android/iOS/Other,str,text,3 ค่า,iOS,0.0,StatCounter Global Stats
+os_year,share_pct,ส่วนแบ่งการใช้งาน (เฉลี่ยรายปีจากรายเดือน วัดจากการเข้าเว็บ),float64,%,0.00 ถึง 99.82,31.84,0.0,StatCounter Global Stats
+platform_year,iso3,รหัส ISO3 (WLD = โลก),str,text,216 ค่า,THA,0.0,World Bank WDI
+platform_year,year,ปี ค.ศ.,int64,year,"2,009.00 ถึง 2,025.00",2025,0.0,-
+platform_year,platform,อุปกรณ์ Mobile/Desktop/Tablet,str,text,3 ค่า,Tablet,0.0,StatCounter Global Stats
+platform_year,share_pct,ส่วนแบ่งการใช้งาน (เฉลี่ยรายปีจากรายเดือน วัดจากการเข้าเว็บ),float64,%,0.00 ถึง 99.98,2.69,0.0,StatCounter Global Stats
